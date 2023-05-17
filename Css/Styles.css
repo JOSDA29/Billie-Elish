@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(/Img/Second_Pattern.jpg);
+}
+
+header {
+    background: rgb(0, 0, 0);
+    padding: 10px 0 20px 0;
+    
+}
+
+h1 {
+    font-size: 60px;
+    padding: 15px ;
+    margin: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 40px;
+    padding: 25px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    text-align: center;
+    padding: px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 25px;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*Index*/
+.Bio {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+    width: 60%;
+    height: 735px;
+    text-align: center;
+    margin: 30px 20% 0;
+}
+
+.Bio p {
+    float: left;
+    width: 50%;
+}
+
+.Bio img {
+    float: left;
+    object-fit: cover ;
+}
+
+#fotoBio {
+    width: 560px;
+    height: 500px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+
+/*Albumes*/
+.Albumes {
+    border-radius: 20px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px 500px;
+}
+
+.Albumes img {
+    width: 560px;
+    height: 500px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+#Happier {
+    background: rgb(150,116,89);
+}
+
+#When {
+    background: rgb(0, 0, 0); 
+
+}
+
+#Dont {
+    background: rgb(238,210,125);
+}
+
+.Cabeza {
+    background: rgb(0, 0, 0);
+}
+
+/*Reconocimineto*/
+.reco {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+    width: 60%;
+    height: 950px;
+    text-align: center;
+    margin: 30px 20% 0;
+}
+
+#premios {
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    margin: 10px;
+} 
